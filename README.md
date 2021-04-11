@@ -1,10 +1,10 @@
 # Anonfiles-api
 
-Anonfiles is a Python library for upload files on [anonfiles.com](https://anonfiles.com/). 
+Anonfiles is a Python library for upload files on [fileleaks.com](https://fileleaks.com/). 
 
 ## About
 
-This **unofficial** Python API was created to make uploading and downloading files from [anonfiles.com](https://anonfiles.com/) simple
+This **unofficial** Python API was created to make uploading and downloading files from [fileleaks.com](https://fileleaks.com/) simple
 
 ## Installation
 
@@ -28,7 +28,7 @@ try:
         "file": ("filename", "filepath", "rb")
     }
 
-    upload = requests.post("https://api.anonfiles.com/upload", files=files)
+    upload = requests.post("https://api.fileleaks.com/upload", files=files)
 
     try:
 
@@ -53,7 +53,7 @@ import wget
 
 try:
 
-    download = wget.download("direct URL") # How? https://encrypting.host/f7nkbiHzgK.gif?key=x05yQJBDd7qgYN
+    download = wget.download("direct URL") # How? https://encrypting.host/uP9ZDPhi2D.gif?key=JazW8Yf0L8xj7w
   
 except Exception as e:
     print(e)
