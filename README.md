@@ -1,6 +1,6 @@
-# Anonfiles-api
+# Fileleaks-api
 
-Anonfiles is a Python library for upload files on [fileleaks.com](https://fileleaks.com/). 
+Fileleaks is a Python library for upload files on [fileleaks.com](https://fileleaks.com/). 
 
 ## About
 
