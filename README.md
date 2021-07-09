@@ -7,7 +7,7 @@ Fileleaks is a Python library for upload files on [fileleaks.com](https://filele
 
 ## About
 
-This **unofficial** Python API was created to make uploading and downloading files from [fileleaks.com](https://fileleaks.com/) simple
+This **unofficial** Python API was created to make uploading and downloading files from [fileleaks.com](https://fileleaks.com/) simple.
 
 ## Installation
 
@@ -49,7 +49,7 @@ except Exception as e:
     print(e)
     # your file can't be uploaded.
 ```
-### Download files
+### Download files (it doesn't use the anonfile api)
 ```python
 import wget
 
